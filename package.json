@@ -1,0 +1,22 @@
+{
+  "name": "books-info-backend",
+  "version": "1.0.0",
+  "description": "Backend for Making API calls to GoodReads for avoiding CORS ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/app.js",
+    "dev": "nodemon ./src/app.js"
+  },
+  "author": "Manish Wadhwani",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "xml2js": "^0.4.19"
+  }
+}
